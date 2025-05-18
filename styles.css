@@ -127,6 +127,15 @@ header .btn:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
+
+.team-member img {
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image fills the container while maintaining aspect ratio */
+    border-radius: 50%; /* Makes the image a circle */
+    margin-bottom: 20px;
+  }
+
 .team-member h3 {
     font-size: 20px;
     margin-bottom: 10px;
