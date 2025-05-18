@@ -4,8 +4,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+    color: #ffffff;
+    background-color: #000138; /* Dark Blue */
 }
 .container {
     width: 90%;
@@ -14,16 +14,16 @@ body {
 }
 
 h1, h2, h3 {
-    color: #222;
+    color: #72efac; /* Green accent for headings */
 }
 
 /* Header Section */
 header {
     background: 
-        linear-gradient(90deg, rgba(0, 123, 255, 0.5), rgba(0, 198, 255, 0.5)), /* Faded blue gradient overlay */
-        url('pics/smartAI.jpg'); /* Smart futuristic city image */
-    background-size: cover; /* Ensures the image covers the entire header */
-    background-position: center; /* Centers the image */
+        linear-gradient(90deg, rgba(0, 1, 56, 0.7), rgba(0, 1, 56, 0.7)), 
+        url('pics/smartAI.jpg');
+    background-size: cover;
+    background-position: center;
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -37,8 +37,8 @@ header p {
     margin: 10px 0 20px;
 }
 header .btn {
-    background: white;
-    color: #007BFF;
+    background: #72efac; /* Green button */
+    color: #000138;       /* Dark Blue text */
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
@@ -46,11 +46,13 @@ header .btn {
     transition: background 0.3s;
 }
 header .btn:hover {
-    background: #f0f0f0;
+    background: #5fd59a; /* Slightly darker green */
 }
+
 /* About Section */
 #about {
-    background: white;
+    background: #ffffff;
+    color: #000138;
     padding: 50px 20px;
     text-align: center;
     margin: 20px 0;
@@ -58,13 +60,14 @@ header .btn:hover {
 #about p {
     font-size: 1.1rem;
     margin-top: 10px;
-    color: #555;
+    color: #333;
 }
 
 /* Solutions Section */
 #solutions {
-    background: #f1f1f1;
+    background: #000138; /* Dark background */
     padding: 50px 20px;
+    color: white;
 }
 #solutions .solution-grid {
     display: flex;
@@ -73,12 +76,13 @@ header .btn:hover {
     justify-content: center;
 }
 .solution {
-    background: white;
-    border: 1px solid #ddd;
+    background: #ffffff;
+    border: 1px solid #ccc;
     border-radius: 10px;
     text-align: center;
     padding: 20px;
     width: 300px;
+    color: #000138;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
 }
@@ -87,7 +91,7 @@ header .btn:hover {
 }
 .solution i {
     font-size: 2rem;
-    color: #007BFF;
+    color: #72efac; /* Icon accent */
     margin-bottom: 10px;
 }
 .solution h3 {
@@ -98,70 +102,57 @@ header .btn:hover {
 /* Team Section Styles */
 .team-section {
     padding: 50px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     text-align: center;
-  }
-  
-  .team-section h2 {
+    color: #000138;
+}
+.team-section h2 {
     font-size: 36px;
     margin-bottom: 40px;
-    color: #333;
-  }
-  
-  .team-container {
+    color: #000138;
+}
+.team-container {
     display: flex;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
-  }
-  
-  .team-member {
-    background-color: #fff;
-    border: 2px solid #ddd;
+}
+.team-member {
+    background-color: #f4f4f4;
+    border: 2px solid #ccc;
     border-radius: 10px;
     padding: 20px;
     width: 250px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-  }
-  
-  .team-member img {
-    width: 150px; /* Set a fixed width */
-    height: 150px; /* Set a fixed height */
-    object-fit: cover; /* Ensures the image fills the container while maintaining aspect ratio */
-    border-radius: 50%; /* Makes the image a circle */
-    margin-bottom: 20px;
-  }
-  
-  .team-member h3 {
+}
+.team-member h3 {
     font-size: 20px;
     margin-bottom: 10px;
-  }
-  
-  .team-member p {
+    color: #000138;
+}
+.team-member p {
     font-size: 14px;
-    color: #666;
-  }
-  
-  .team-member:hover {
+    color: #333;
+}
+.team-member:hover {
     transform: translateY(-10px);
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
     .team-container {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  }
-  
+}
 
 /* Contact Section */
 #contact {
     padding: 50px 20px;
     text-align: center;
-    background: #007BFF;
+    background: #000138;
     color: white;
 }
 #contact form {
@@ -176,7 +167,8 @@ header .btn:hover {
     display: block;
     font-weight: bold;
 }
-.form-group input, .form-group textarea {
+.form-group input,
+.form-group textarea {
     width: 100%;
     padding: 10px;
     border: none;
@@ -184,8 +176,8 @@ header .btn:hover {
     margin-top: 5px;
 }
 button.btn {
-    background: white;
-    color: #007BFF;
+    background: #72efac;
+    color: #000138;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -195,13 +187,13 @@ button.btn {
     transition: background 0.3s;
 }
 button.btn:hover {
-    background: #f0f0f0;
+    background: #5fd59a;
 }
 
 /* Footer */
 footer {
-    background: #333;
-    color: white;
+    background: #000138;
+    color: #72efac;
     text-align: center;
     padding: 20px 0;
 }
