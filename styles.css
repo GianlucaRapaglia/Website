@@ -81,6 +81,7 @@ header .btn:hover {
     background: #000138; /* Dark background */
     padding: 50px 20px;
     color: white;
+    text-align: center;
 }
 #solutions .solution-grid {
     display: flex;
