@@ -29,39 +29,16 @@ header {
     padding: 50px 20px;
 }
 
-.logo-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
 .logo {
-    height: 60px;
-    width: auto;
+    width: 180px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 10px rgba(114, 239, 172, 0.3)); /* subtle green glow */
+    transition: transform 0.3s ease;
 }
 
-.company-name {
-    font-size: 2.5rem;
-    color: #ffffff;
-    font-weight: bold;
-    margin: 0;
-}
-
-.tagline {
-    font-size: 1.2rem;
-    color: #ffffff;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
+.logo:hover {
+    transform: scale(1.05);
 
 header h1 {
     font-size: 2.5rem;
