@@ -51,7 +51,7 @@ header .btn:hover {
 }
 
 .logo {
-    width: 180px; /* Adjust size as needed */
+    width: 240px; /* Adjust size as needed */
     height: auto;
     margin-bottom: 20px;
     filter: drop-shadow(0 0 10px rgba(114, 239, 172, 0.3)); /* subtle green glow */
