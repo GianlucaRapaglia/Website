@@ -36,6 +36,11 @@ header {
     filter: drop-shadow(0 0 10px rgba(114, 239, 172, 0.3)); /* subtle green glow */
     transition: transform 0.3s ease;
 }
+.tagline {
+    font-size: 1.5rem;
+    color: #72efac;
+    font-weight: bold;
+}
 .logo:hover {
     transform: scale(1.05);
 }
